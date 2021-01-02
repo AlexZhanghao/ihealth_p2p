@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\ATI">
+      <UniqueIdentifier>{319750b4-2771-4796-bce9-88d8773f8b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ATI">
+      <UniqueIdentifier>{b9f1cb7f-76e1-498a-bac2-cfc1e8538d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ihealth_p2p.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="control_card.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="p2p_control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data_acquisition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\DAQSys.cpp">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\FTWrapper.cpp">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\dom.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\expatls.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\ftconfig.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\ftrt.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\node.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\stack.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\xmlparse.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\xmlrole.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI\ATIDAQ\xmltok.c">
+      <Filter>源文件\ATI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="control_card.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="p2p_control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data_acquisition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\DAQSys.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\dom.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\ftconfig.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\ftrt.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\FTWrapper.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\stack.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\xmlparse.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\xmlrole.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+    <ClInclude Include="ATI\ATIDAQ\xmltok.h">
+      <Filter>头文件\ATI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
